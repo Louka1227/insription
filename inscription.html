@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th colspan="2"><h1>Inscription en ligne</h1></th>
+      </tr>
+      <!-- numero carte -->
+      <tr>
+        <td><label for="numcarte">N carte identite : </label></td>
+        <td><input id="numcarte" type="text" /></td>
+      </tr>
+      <!-- nom prenom -->
+      <tr>
+        <td><label for="nomp">Nom & Prenom : </label></td>
+        <td><input id="nomp" type="text" /></td>
+      </tr>
+      <!-- code carte -->
+      <tr>
+        <td><label for="codec">Code carte e-dinar :</label></td>
+        <td><input id="codec" type="text" /></td>
+      </tr>
+      <!-- adresse -->
+      <tr>
+        <td><label for="adresse"> Adresse:</label></td>
+        <td><textarea id="adresse" cols="25" rows="5"></textarea></td>
+      </tr>
+      <!-- selection -->
+      <tr>
+        <td><label for="selection">Selectionner votre bac</label></td>
+        <td>
+          <select id="options">
+            <option value="eco">eco</option>
+            <option value="info">info</option>
+            <option value="sc">science</option>
+            <option value="sc">lettre</option>
+          </select>
+        </td>
+      </tr>
+      <!-- niveau etude -->
+      <tr>
+        <td><label for="niveau">Niveau d'etude</label></td>
+        <td>
+          <input type="radio" name="niveau" id="LMD" />
+          <label for="LMD">LMD</label>
+          <input type="radio" name="niveau" id="Mastere" />
+          <label for="Mastere">Mastere</label>
+        </td>
+      </tr>
+      <!-- options -->
+      <tr>
+        <td><label for="options">Les options :</label></td>
+        <td>
+          <input type="checkbox" id="options" /> Francais
+          <br />
+          <input type="checkbox" /> Anglais
+        </td>
+      </tr>
+      <!-- buttons -->
+
+      <tr>
+        <td colspan="2">
+          <div class="btns">
+            <button>Envoyer</button> <button>Annuler</button>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
