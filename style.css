@@ -6,7 +6,7 @@
 body {
   background-color: rgb(219, 238, 240);
   width: 50%;
-  margin: auto;
+  margin-left: 28rem;
   display: flex;
   align-items: center;
 }
